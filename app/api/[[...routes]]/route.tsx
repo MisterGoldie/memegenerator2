@@ -13,7 +13,7 @@ const app = new Frog({
 
 app.frame('/', (c) => {
   return c.res({
-    image: "https://amaranth-adequate-condor-278.mypinata.cloud/ipfs/QmdYBNvgqwt1eJV667UEpsLh3kbRhmVXToyUtzwfsyaznq",
+    image: "https://amaranth-adequate-condor-278.mypinata.cloud/ipfs/QmQu3WSN8JE1cgjpUY7fVy3nRtfzWRyPU5TLvusdf92PT4",
     intents: [
       <Button action="/picker" value="A">A</Button>,
       <Button action="/picker" value="B">B</Button>,
@@ -23,7 +23,7 @@ app.frame('/', (c) => {
 
 app.frame('/picker', (c) => {
   const { buttonValue } = c;
-  const imageA = "https://amaranth-adequate-condor-278.mypinata.cloud/ipfs/QmPy8AEdsktPXjZziFQxTQCLwHRtXVxPw1VF2soHKyqttY";
+  const imageA = "https://amaranth-adequate-condor-278.mypinata.cloud/ipfs/QmVxD55EV753EqPwgsaLWq4635sT6UR1M1ft2vhL3GZpeV";
   const imageB = "https://amaranth-adequate-condor-278.mypinata.cloud/ipfs/QmcBQuKTWvRHuWgLt4sSdTrCCYVeY47v1maaWhMynne7Gt";
 
   const image = buttonValue === 'A' ? imageA : imageB;
